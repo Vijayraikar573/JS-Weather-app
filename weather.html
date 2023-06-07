@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="./images/confetti_party_celebration_carnival_icon_235244.png" type="image/x-icon">
+</head>
+<body>
+    <section class="home">
+
+        <div class="navbar">
+
+            <div class="logo">
+                <img src="./images/cloudyweather_cloud_inpart_day_wind_thunder_sunny_rain_darkness_nublad_1459.png" height="70px" width="70px" alt="">
+            </div>
+
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Sign in</a>
+            </div>
+
+        </div>
+
+        <div class="search">
+            <div class="searchcity">
+                <input type="text" id="search" placeholder="enter a city name">
+                <button onclick="getInfo()">Search</button>
+            </div>
+
+            <div class="location">
+                <img src="./images/location-sharp.svg" width="35" alt="">
+                <p id="cityname">City Name</p>
+            </div>
+        </div>
+
+        <div class="weatherInfo">
+            <h1><span id="temp">0</span><sup>o</sup> <sup>c</sup></h1>
+        </div>
+
+    </section>
+
+    <!-- <h1>Weather App</h1> -->
+    <script src="weather.js"></script>
+</body>
+</html>
